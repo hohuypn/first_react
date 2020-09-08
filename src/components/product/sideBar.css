@@ -1,0 +1,25 @@
+
+ul.sidebar-categories {
+    list-style: none;
+    padding: 15px;
+    background-color: aliceblue;
+}
+ul.sidebar-categories>li:first-child {
+    background-color: #006600;
+    padding: 12px;
+    color: white;
+}
+ul.sidebar-categories li:hover:not(:first-child){
+    background-color:black;
+    color: white;
+}
+ul.sidebar-categories li a:hover{
+    color: white;
+}
+ul.sidebar-categories li{
+    padding: 12px;
+}
+
+ul.sidebar-categories li a{
+    text-decoration: none;
+}
